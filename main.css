@@ -152,27 +152,103 @@ header {
   font-weight: 600;
 }
 .sec2 .section1 {
-  width: 2030px;
+  /* width: 2030px; */
   height: 100vh;
   display: flex;
   /* z-index: 0; */
 }
 
 .sec2 .section1 .tit-sec {
-  padding: 80px 0 40px 50px;
+  padding: 80px 0 40px 15px;
   position: absolute;
+  /* top: 0; */
   left: 62%;
+  /* z-index: 2; */
   text-align: left;
 }
+
+.sec2 .section1 .tit-sec .tit {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.sec2 .section1 .tit-sec .sub {
+  margin-top: 8px;
+  font-size: 18px;
+}
+
 .sec2 .section1 .sec2-boxs {
   width: 100%;
-  /* max-height: 85vh; */
   display: flex;
   align-items: stretch;
 }
+.sec2 .section1 .sec2-boxs .inner-box {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+}
 .sec2 .section1 .sec2-boxs .inner-box .left-box {
   width: 62%;
+  height: 85vh;
 }
 .sec2 .section1 .sec2-boxs .inner-box .left-box img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sec2 .inner-box .rigth-box {
+  width: 38%;
+  position: relative;
+  text-align: left;
+  padding: 190px 0 0 50px;
+}
+.sec2 .inner-box .rigth-box .prd-tit span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.sec2 .inner-box .rigth-box .prd-box .prd1 {
+  font-size: 18px;
+  color: #ccc;
+  text-decoration: line-through;
+}
+.sec2 .inner-box .rigth-box .prd-box .prd2 {
+  font-size: 20px;
+  margin-left: 5px;
+  font-weight: 900;
+}
+.sec2 .inner-box .rigth-box .prd-btn {
+  position: absolute;
+  bottom: 80px;
+}
+.sec2 .inner-box .rigth-box .prd-btn p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+.sec2 .inner-box .rigth-box .prd-btn .btn {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 22px 0 18px;
+  border-radius: 20px;
+  line-height: 40px;
+  height: 40px;
+}
+.sec3 {
+  width: 100%;
+  height: 100vh;
+}
+.sec3 .tit-txt {
+  position: relative;
+  padding: 40px 40px 20px;
+}
+.sec3 .tit-txt h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.sec3 .tit-txt p {
+  margin-top: 8px;
+  font-size: 18px;
 }
