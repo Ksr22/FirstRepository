@@ -13,6 +13,7 @@ a {
 }
 
 body {
+  overflow-x: hidden;
   width: 100%;
 
   background-color: rgb(255, 255, 255);
@@ -362,14 +363,14 @@ header {
 }
 
 .sec3 .gallery-sec img {
-  /* width: 100%; */
+  width: 100%;
 }
 .sec3 .gallery-sec .gallery_L {
-  /* width: 50%; */
+  width: 50%;
   margin-right: 2px;
 }
 .sec3 .gallery-sec .gallery_R {
-  /* width: 50%; */
+  width: 50%;
   /* margin-right: 2px; */
 }
 
